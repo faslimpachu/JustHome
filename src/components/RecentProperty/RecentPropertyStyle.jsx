@@ -29,7 +29,7 @@ export const Section = styled.div`
 
   .images {
     display: flex;
-    flex-wrap: wrap; /* Allows the cards to wrap to the next line on smaller screens */
+    flex-wrap: wrap; 
     gap: 40px;
 
     .card {
@@ -57,17 +57,17 @@ export const Section = styled.div`
     position: absolute;
     top: 0;
     padding: 20px;
+    
   }
 
   @media (max-width: 768px) {
    
 
     .images {
-      gap: 20px; /* Reduce gap between cards on smaller screens */
-
+      gap: 20px; 
       .card {
         img {
-          width: 150px; /* Adjust image width for smaller screens */
+          width: 150px; 
         }
       }
     }
@@ -75,17 +75,21 @@ export const Section = styled.div`
 
   @media (max-width: 480px) {
     .images {
-      gap: 10px; /* Further reduce gap between cards on very small screens */
-
+      gap: 30px; 
       .card {
         img {
-          width: 120px; /* Further adjust image width for very small screens */
+          width: 120px; 
         }
       }
     }
+    .card{
+      &:hover {
+    transform: scale(1.15);
+}
+    }
 
     .card-text {
-      padding: 10px; /* Adjust text padding for smaller screens */
+      padding: 10px; 
     }
   }
 `;
