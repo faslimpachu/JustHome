@@ -27,6 +27,11 @@ export const SectionDiv = styled.section`
             color: #0db033;
             cursor: pointer;
         }
+       
+        }
+        li a{
+            text-decoration: none;
+            color: black;
         }
     
     }

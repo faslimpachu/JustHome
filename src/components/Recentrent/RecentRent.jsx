@@ -72,7 +72,7 @@ function RecentRent() {
     ];
 
     return (
-        <SectionDiv>
+        <SectionDiv id='rent'>
 
             <div className="heading">
                 <h1>Recent Properties For Rent </h1>

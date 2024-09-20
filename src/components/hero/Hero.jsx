@@ -19,14 +19,14 @@ function Hero() {
                         <p className='p-tag'>Sale</p>
                         <p>Rent</p>
                     </div> */}
-                    <div className="search-div-container">
+                    {/* <div className="search-div-container">
                         <div className="search-div">
                             <input type="text" name="text" placeholder='Type' id="text" />
                             <input type="text" name="text" placeholder='Enter Keywords' id="text" />
                             <input className='btn-1' type="button" value="Filter" />
                             <input className='btn' type="button" value="Submit" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </TextDiv>
         </SectionMain>

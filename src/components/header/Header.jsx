@@ -11,12 +11,10 @@ function Header() {
     
         <div className="nav-item">
           <ul>
-            <li>Home</li>
-            <li>Listing</li>
-            <li>Members</li>
-            <li>Blog</li>
-            <li>Pages</li>
-            <li>Contact</li>
+          <li><a href="#index">Home</a></li>
+          <li><a href="#discover">Deals</a></li>
+          <li><a href="#sale">For Sale</a></li>
+          <li><a href="#rent">For Rent</a></li>
            
           </ul>
         
@@ -25,7 +23,7 @@ function Header() {
           </div>
           <div className="contact">
             <CallOutlinedIcon />
-            <p>+68 685 88666</p>
+            <p>+91 9072476063</p>
             <PermIdentityOutlinedIcon className='user' />
             <button>Add Property </button>
 

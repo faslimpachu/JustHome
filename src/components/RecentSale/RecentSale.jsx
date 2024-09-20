@@ -75,7 +75,7 @@ function RecentSale() {
     return (
 
 
-        <SectionDiv>
+        <SectionDiv id='sale'>
 
             <div className="heading">
                 <h1>Recent Properties For Sale </h1>

@@ -58,7 +58,7 @@ function Discover() {
     ];
 
     return (
-        <SectionDiv>
+        <SectionDiv id='discover'>
             <div className="heading">
                 <h1>Discover Our Best Deals</h1>
                 <p>get it now with low price</p>

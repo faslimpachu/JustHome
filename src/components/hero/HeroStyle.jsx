@@ -27,21 +27,21 @@ export const TextDiv = styled.div`
        width: 100%;
 
        @media (max-width: 650px) {
-           margin-top: 180px;
+           
            
            h1{
             font-size: 2rem;
            }
         }
         @media (max-width: 480px) {
-           margin-top: 250px;
+          
            
            h1{
             font-size: 1.7rem;
            }
         }
         @media (max-width: 355px) {
-           margin-top: 250px;
+          
            
            h1{
             font-size: 1.5rem;
@@ -53,13 +53,17 @@ export const TextDiv = styled.div`
    }
 
    h1 {
-       font-size: 3rem;
+       font-size:5rem;
        font-weight: 500;
        margin-bottom: 25px;
 
        span {
            color: #254EF0;
        }
+
+    @media (max-width: 865px){
+        font-size: 3rem;
+    }
    }
 
    p {
